@@ -1,0 +1,41 @@
+.scroll-container {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.carousel-primary, .carousel-secondary {
+    top: 26%;
+    left: 100%;
+    width: 100%;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.carousel-primary img {
+    height: 70px; 
+    width: auto; 
+    margin-left: 20px;
+}
+
+.carousel-primary {
+    display: flex;
+    justify-content: space-around;
+    animation: scroll-horizontal 40s linear infinite;
+}
+
+.carousel-secondary {
+    animation: scroll-horizontal 40s linear infinite;
+    animation-delay: 20s;
+}
+
+@keyframes scroll-horizontal {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
