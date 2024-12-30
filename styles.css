@@ -11,7 +11,7 @@
 
 
 .outer {
-    background: linear-gradient(to bottom, white, rgb(237, 236, 236), white);
+    background-color: rgb(233, 233, 233);
     text-align: right;
 }
 
@@ -76,4 +76,20 @@
 
 .item5 {
     animation-delay: calc(30s / 5 * (5 - 5) * -1);
+}
+
+.sections .row {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Spread out the content with space between */
+}
+
+#sections .col-md-6 {
+    flex: 1;
+}
+
+.section-image {
+    max-width: 100%;  /* Ensures the image is responsive */
+    height: auto;  /* Maintain aspect ratio */
+    border-radius: 8px;  /* Optional: adds rounded corners */
 }
