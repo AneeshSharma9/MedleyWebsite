@@ -1,17 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Medley Networks</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Medley Networks</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -19,55 +19,348 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#solutions">Solutions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Solutions</a>
+                        <a class="nav-link" href="#clients">Clients</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Clients</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Careers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#careers">Careers</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+            </div>
+            <div class="d-flex">
+                <a href="#" class="btn btn-primary">Get in touch</a>
             </div>
         </div>
     </nav>
 
-    <h1>Hello, world!</h1>
+    <header class="bg-dark text-white py-5">
+        <div class="container">
+            <h1 class="display-2">Medley Networks</h1>
+            <p class="lead">Network solutions and services in telecommunication and information technology.</p>
+        </div>
+    </header>
 
-    <div class="scroll-container">
-        <div class="carousel-primary">
-            <img src="https://www.freeiconspng.com/uploads/verizon-logo-png-1.png" alt="">
-            <img src="https://www.medleynetworks.com/images/Amatel.PNG" alt="">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Alcatel_Lucent_Enterprise_Logo.svg" alt="">
-            <img src="https://www.medleynetworks.com/images/Brook.PNG" alt="">
-            <img src="https://www.cdnlogo.com/logos/e/27/ericsson.svg" alt="">
+    <div id="about" class="container">
+        <h1>About Us</h1>
+        <p>Medley Networks operates in the Telecommunications, Information Technology, and Wireless Industry domains. Headquartered in Dover, Delaware, the company is an independent provider of services and seasoned technical professionals.</p>
+        <p>Medley Networks boasts a vast pool of talented professionals in the fields of Radio Frequency (RF), RF Compliance, RF Exposure Analysis (EME), FAA Survey/Filing, RF Intermodulation Analysis, Network Implementation, Optimization, and more, particularly within the Telecommunications Industry.</p>
+        <p>Our vision is to rapidly grow in the industry and establish ourselves as one of the most desirable places to work, collaborate with, and work for. Medley Networks is committed to providing best-in-class services to our clients by continuously improving processes, people, and tools on a day-to-day basis.</p>
+        <h4>Our Core Values</h4>
+        <ul>
+            <li><strong>Customer-Centric Approach:</strong> Customer problems are our problems. We strive to support their needs and deliver effective solutions.</li>
+            <li><strong>Simplification:</strong> We believe that complex processes reduce efficiency. Our goal is to simplify processes for better quality and faster deliveries.</li>
+            <li><strong>People Development:</strong> People form the foundation of our organization. We invest in grooming and empowering our team to achieve unprecedented success.</li>
+        </ul>
+    </div>
+    
+
+    <div id="services" class="container">
+        <h1>Services</h1>
+        <div class="container my-5">
+            <div class="row">
+                <!-- Card 1: Engineering -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1691435828932-911a7801adfb?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            class="card-img-top" alt="Engineering" style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Engineering</h5>
+                            <p class="card-text">Our engineering services include:</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Network Integration and Optimization</li>
+                            <li class="list-group-item">RF Optimization Engineers</li>
+                            <li class="list-group-item">RF Design Engineers</li>
+                            <li class="list-group-item">RF Consultants</li>
+                            <li class="list-group-item">Solution Architects</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 2: Construction -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1511233744044-194342066754?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dimages/.jpg"
+                            class="card-img-top" alt="Construction" style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Construction</h5>
+                            <p class="card-text">Our construction services include:</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Construction Engineers</li>
+                            <li class="list-group-item">Construction Managers</li>
+                            <li class="list-group-item">Site Acquisition Managers</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 3: Management -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dimages/ServicesManagement.jpg"
+                            class="card-img-top" alt="Management" style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Management</h5>
+                            <p class="card-text">Our management services include:</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Project Managers</li>
+                            <li class="list-group-item">RF Managers</li>
+                            <li class="list-group-item">Coordinators</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Card 4: Software and IT -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dimages/.jpg"
+                            class="card-img-top" alt="Software and IT" style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Software and Information Technology</h5>
+                            <p class="card-text">Our IT services include:</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Project Management</li>
+                            <li class="list-group-item">IT Architecture and Communication</li>
+                            <li class="list-group-item">Software Development and Maintenance</li>
+                            <li class="list-group-item">Cloud Services</li>
+                            <li class="list-group-item">Big Data and Quant Analytics</li>
+                            <li class="list-group-item">Temporary and Permanent Consulting</li>
+                            <li class="list-group-item">Deskside, Server, Security, and Network Support</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 5: RF Compliance -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1639369484524-90dce2fac8e6?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            class="card-img-top" alt="RF Compliance" style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">RF Compliance (EME)</h5>
+                            <p class="card-text">Our RF Compliance services include:</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">FCC Compliance Measurements</li>
+                            <li class="list-group-item">Antenna and RF Compliance Reports</li>
+                            <li class="list-group-item">FCC Compliance Consulting</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 6: Packaging Solutions -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1620455800201-7f00aeef12ed?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            class="card-img-top" alt="Packaging Solutions" style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Packaging Solutions</h5>
+                            <p class="card-text">Our packaging solutions include:</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Master Cartons</li>
+                            <li class="list-group-item">Mono Cartons</li>
+                            <li class="list-group-item">Rigid Boxes</li>
+                            <li class="list-group-item">Box Designing</li>
+                            <li class="list-group-item">Printing Press</li>
+                        </ul>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="carousel-primary carousel-secondary">
-            <img src="https://www.freeiconspng.com/uploads/verizon-logo-png-1.png" alt="">
-            <img src="https://www.medleynetworks.com/images/Amatel.PNG" alt="">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Alcatel_Lucent_Enterprise_Logo.svg" alt="">
-            <img src="https://www.medleynetworks.com/images/Brook.PNG" alt="">
-            <img src="https://www.cdnlogo.com/logos/e/27/ericsson.svg" alt="">
+
+    </div>
+
+    <div id="solutions" class="container my-5">
+        <h1 class="text-center mb-4">Solutions</h1>
+
+        <!-- Tabs Navigation -->
+        <ul class="nav nav-pills mb-4 justify-content-center" id="solutionsTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active rounded-pill me-3" id="telecommunications-tab" data-bs-toggle="tab"
+                    data-bs-target="#telecommunications" type="button" role="tab" aria-controls="telecommunications"
+                    aria-selected="true">Telecommunications</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-pill me-3" id="it-tab" data-bs-toggle="tab" data-bs-target="#information-technology"
+                    type="button" role="tab" aria-controls="information-technology" aria-selected="false">Information Technology</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-pill me-3" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance" type="button"
+                    role="tab" aria-controls="finance" aria-selected="false">Finance</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-pill me-3" id="professional-services-tab" data-bs-toggle="tab"
+                    data-bs-target="#professional-services" type="button" role="tab"
+                    aria-controls="professional-services" aria-selected="false">Professional Services</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link rounded-pill me-3" id="printing-packaging-tab" data-bs-toggle="tab"
+                    data-bs-target="#printing-packaging" type="button" role="tab" aria-controls="printing-packaging"
+                    aria-selected="false">Printing and Packaging</button>
+            </li>
+        </ul>
+        
+        
+
+        <!-- Tabs Content -->
+        <div class="tab-content" id="solutionsTabsContent">
+            <!-- Telecommunications -->
+            <div class="tab-pane fade show active" id="telecommunications" role="tabpanel"
+                aria-labelledby="telecommunications-tab">
+                <h2>Telecommunications</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">CW Testing</li>
+                    <li class="list-group-item">Equipment Engineering</li>
+                    <li class="list-group-item">Transport Planning</li>
+                    <li class="list-group-item">RF and Network Design</li>
+                    <li class="list-group-item">Cell site scoping</li>
+                    <li class="list-group-item">Construction issues and alarms troubleshooting</li>
+                    <li class="list-group-item">RF Launch and Optimization</li>
+                    <li class="list-group-item">RF Drive Testing</li>
+                    <li class="list-group-item">E-911 testing and PSAP Coordination</li>
+                    <li class="list-group-item">PIM Troubleshooting</li>
+                    <li class="list-group-item">External Interference hunting/analysis</li>
+                    <li class="list-group-item">RF Compliance (EME)</li>
+                </ul>
+            </div>
+
+            <!-- Information Technology -->
+            <div class="tab-pane fade" id="information-technology" role="tabpanel" aria-labelledby="it-tab">
+                <h2>Information Technology</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Software Developers and Architects</li>
+                    <li class="list-group-item">Database Administrators and Developers</li>
+                    <li class="list-group-item">Mobile App Developers</li>
+                    <li class="list-group-item">Cloud Computing</li>
+                    <li class="list-group-item">DevOps</li>
+                    <li class="list-group-item">Quant analysts</li>
+                    <li class="list-group-item">QA Leads and Analysts</li>
+                    <li class="list-group-item">Big Data</li>
+                    <li class="list-group-item">Network Professionals</li>
+                    <li class="list-group-item">System Administrators</li>
+                    <li class="list-group-item">Help Desk and PC admin</li>
+                    <li class="list-group-item">Project Management</li>
+                    <li class="list-group-item">Business Analyst</li>
+                </ul>
+            </div>
+
+            <!-- Finance -->
+            <div class="tab-pane fade" id="finance" role="tabpanel" aria-labelledby="finance-tab">
+                <h2>Finance</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Accountants and accounting managers</li>
+                    <li class="list-group-item">Finance directors and managers</li>
+                    <li class="list-group-item">Budget Analysts</li>
+                    <li class="list-group-item">Loan Servicing Staff</li>
+                    <li class="list-group-item">Consumer Loans Staff</li>
+                    <li class="list-group-item">Mortgage Underwriters</li>
+                    <li class="list-group-item">Tax and Finance Analysts</li>
+                </ul>
+            </div>
+
+            <!-- Professional Services -->
+            <div class="tab-pane fade" id="professional-services" role="tabpanel"
+                aria-labelledby="professional-services-tab">
+                <h2>Professional Services</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Office Administrator</li>
+                    <li class="list-group-item">Executive Assistants</li>
+                    <li class="list-group-item">HR & Payroll</li>
+                    <li class="list-group-item">Front Desk</li>
+                </ul>
+            </div>
+
+            <!-- Printing and Packaging -->
+            <div class="tab-pane fade" id="printing-packaging" role="tabpanel" aria-labelledby="printing-packaging-tab">
+                <h2>Printing and Packaging</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Medley networks has extended its arm in providing packaging solutions to
+                        its clients.</li>
+                    <li class="list-group-item">Through our experienced partner, we can provide packaging solutions like
+                        master cartons, mono cartons, printing materials for marketing, and more.</li>
+                    <li class="list-group-item">
+                        For more details, visit -
+                        <a href="https://www.cartonagepackaging.com" target="_blank">www.cartonagepackaging.com</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </div>
+
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2024 Medley Networks, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#">twitter</a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#">instagram</a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#">facebook</a></li>
+                </ul>
+            </div>
+        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
