@@ -9,6 +9,9 @@
     justify-content: center;
 }
 
+.alt-bg {
+    background-color: rgb(233, 233, 233);
+}
 
 .outer {
     background-color: rgb(233, 233, 233);
