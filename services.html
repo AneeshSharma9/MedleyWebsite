@@ -1415,6 +1415,28 @@
         </footer>
     </div>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const hash = window.location.hash;
+            if (hash && document.querySelector(hash)) {
+                const target = document.querySelector(hash);
+        
+                document.querySelectorAll('.accordion-collapse.show').forEach(el => {
+                    el.classList.remove('show');
+                });
+        
+                target.classList.add('show');
+        
+                const button = document.querySelector(`[data-bs-target="${hash}"]`);
+                if (button) {
+                    button.classList.remove("collapsed");
+                    button.setAttribute("aria-expanded", "true");
+                }
+        
+            }
+        });
+        </script> 
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
